@@ -1,0 +1,284 @@
+<h3>Ques: 1 Describe the main difference between the CSS Flexbox loyout model and the css Grid layout model. When would you choose to use one over the other</h3>
+<h3>Solution:-</h3>
+<p><b>CSS Flexbox layout-</b>CSS Flexible Box Layout (or Flexbox) allows designers to position responsive elements appropriately within screens of different sizes. The tools include:
+
+    box layout for documents,
+    an inline layout for defining the appearance of text on screens,
+    a table layout to depict tabular data in one dimension,
+    and a positioned layout mode that enables explicit positioning of responsive elements.
+    Flexbox is popular among front-end developers, since it allows developers to create multiple instances of dynamic layouts and effortlessly align content within containers.</p>
+   <p>i- Flex can be arranged in any direction</p>
+  <p>ii-  Flex can have its visual order reversed or rearranged.</p>
+  <p>iii-  Items can be aligned in your container or between them.</p>
+   <p>iv- Support all browsers.</p>
+ <p><b>CSS Grid Layout-</b>CSS Grid aligns items in columns and rows, allowing developers to easily control the rendering and appearance of large layouts and whole pages meant for the desktop, tablet, and smartphone displays.
+
+    Items are placed inside the cells defined by the grid. Creating and defining the overall layouts remains the strong suit for CSS Grid. Internet Explorer, Chrome, Safari, Edge, and Firefox support Grid. Notably, Opera Mini, Blackberry Browser, QQ Browser, and Baidu Browser does not support Grid.
+    
+    It offers automation to create a layout, or define automatic placement rules that perform placements inside a given grid.
+    
+    <p>i-Grid tracks are created within your stylesheet.</p>
+    <p>ii-Reduced file sizes.</p>
+    <p>iii-Prototyping with CSS Grid is fast and efficient.</p>
+    <p>iv-Not supported by every browser</p>
+    
+    
+    <h3>Ques:2 Explain the role of the following key properties in the flexbox layout model?</h3>
+    <p><b>1.Justify-Content:-</b>The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.</p>
+    <p><b>2. Align-items</b>The align-items property specifies the default alignment for items inside a flexbox or grid container. In a flexbox container, the flexbox items are aligned on the cross axis, which is vertical by default (opposite of flex-direction).</p>
+    <p><b>3. Gap-</b>On the main axis, the column-gap property creates fixed size gaps between adjacent items. On the cross axis the row-gap property creates spacing between adjacent flex lines, therefore flex-wrap must also be set to wrap for this to have any effect.</p>
+    <p><b>4. Flex-direction:-</b>Flex direction in CSS is a sub-property of the flexible box layout module. It establishes the main axis, thus defining the direction flex items are ordered or placed in the flex container. By default, the flex items are placed in the row direction (horizontally left to right).</p>
+    <p><b>5. Flex-wrap:-</b>The flex-wrap property allows enabling the control direction in which lines are stacked. It is used to designate a single line or multi-line format to flex items inside the flex container.</p>
+
+
+    <h3>Ques:3  Write the code to center a div using CSS flexbox?</h3>
+    <h3>Solution:-</h3>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>flexbox</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--flexbox-->
+       <div class="box">
+        <div class="box1"></div>
+       </div> 
+    </body>
+    </html>
+
+    <h3>Ques:4 A client of yours wants to add a pricing section on their website to showcase their newly introduced premium plans. <br>YOU have to build the pricing section for their business. They have provided you with the figma design for the same.?</h3>
+    <h3>Solution:-</h3>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>flexbox</title>
+
+    </head>
+    <body>
+        <div class="pricing-section">
+        <div class="card">
+            <!--figma design pricing image-->
+        <!--Free Plan-->
+
+            <h1 class="free paln">Free Plan</h1>
+            <p class="for personal">For Personal</p>
+            <h1 class="doller">$0</h1>
+          <p class="features"><span> <img src="https://as2.ftcdn.net/v2/jpg/05/84/12/79/1000_F_584127974_2LvBiHe5uYwEPLNgC9rvT2ryRmSpM6RY.jpg" alt=""></span>&nbsp;1 Users<br>
+          <span> <img src="https://as2.ftcdn.net/v2/jpg/05/84/12/79/1000_F_584127974_2LvBiHe5uYwEPLNgC9rvT2ryRmSpM6RY.jpg" alt=""></span>&nbsp;4 Web Mails<br>
+         <span> <img src="https://as2.ftcdn.net/v2/jpg/05/84/12/79/1000_F_584127974_2LvBiHe5uYwEPLNgC9rvT2ryRmSpM6RY.jpg" alt=""></span>&nbsp;&nbsp;Responsive Websites<br>
+          <span> <img src="https://as2.ftcdn.net/v2/jpg/05/84/12/79/1000_F_584127974_2LvBiHe5uYwEPLNgC9rvT2ryRmSpM6RY.jpg" alt=""></span>&nbsp;Free SSL</p>
+          
+        <div>
+             <button class="btn">Subscribe now</button>
+          
+        </div>
+    </div>
+
+      <div class="card2">
+        <!--Basic Plan--> 
+
+        <h1 class="basic plan">Basic Plan</h1>
+        <p class="small business">For small Business</p>
+        <h1 class="doller1">$29</h1>  
+        <p class="features"> <span><img src="https://as2.ftcdn.net/v2/jpg/05/84/12/79/1000_F_584127974_2LvBiHe5uYwEPLNgC9rvT2ryRmSpM6RY.jpg" alt=""></span>&nbsp;4 Users<br>
+         <span><img src="https://as2.ftcdn.net/v2/jpg/05/84/12/79/1000_F_584127974_2LvBiHe5uYwEPLNgC9rvT2ryRmSpM6RY.jpg" alt=""></span>&nbsp;10 Web Mails<br>  
+        <span><img src="https://as2.ftcdn.net/v2/jpg/05/84/12/79/1000_F_584127974_2LvBiHe5uYwEPLNgC9rvT2ryRmSpM6RY.jpg" alt=""></span>&nbsp;Responsive websites<br>  
+        <span><img src="https://as2.ftcdn.net/v2/jpg/05/84/12/79/1000_F_584127974_2LvBiHe5uYwEPLNgC9rvT2ryRmSpM6RY.jpg" alt=""></span>&nbsp;Free SSL</p>  
+        
+        <div>
+            <button class="btn1">Subscribe now</button>
+         
+       </div>
+    
+    </div>
+
+    <div class="card3">
+        <!--Pro plan-->
+
+     <h1 class="pro plan">Pro Plan</h1>
+     <p class="for enterprise">For enterprise</p>
+     <h1 class="doller3">$49</h1>
+
+     <p class="features"><span><img src="https://as2.ftcdn.net/v2/jpg/05/84/12/79/1000_F_584127974_2LvBiHe5uYwEPLNgC9rvT2ryRmSpM6RY.jpg" alt=""></span>&nbsp;Unlimited users <br><br>
+     <span><img src="https://as2.ftcdn.net/v2/jpg/05/84/12/79/1000_F_584127974_2LvBiHe5uYwEPLNgC9rvT2ryRmSpM6RY.jpg" alt=""></span>&nbsp;Unlimited Webmails <br><br>
+    <span><img src="https://as2.ftcdn.net/v2/jpg/05/84/12/79/1000_F_584127974_2LvBiHe5uYwEPLNgC9rvT2ryRmSpM6RY.jpg" alt=""></span>&nbsp;Responsive Websites <br><br>  
+     <span><img src="https://as2.ftcdn.net/v2/jpg/05/84/12/79/1000_F_584127974_2LvBiHe5uYwEPLNgC9rvT2ryRmSpM6RY.jpg" alt=""></span>&nbsp;Free SSL+SEO</p>  
+   
+     <div>
+         <button class="btn">Subscribe now</button>
+      
+    </div>
+
+    </div>
+    </div>
+        </body>
+    </html>
+    <!--Ques 5-->
+
+    <h3>Ques:5 Build a clone on the IRCTC from the figma file provided below?</h3>
+    <h3>solution:-</h3>     
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FLEX</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <!-- full wrapper container -->
+    <div class="full-container">
+
+    <!-- left section -->
+    <section class="left">
+    <!-- navigation container -->
+    <nav>
+    <div class="logos-container">
+    <img src="file:///C:/Users/alok/Desktop/alok/IMAGE/image%205.png" alt="IRCTC">
+    <img src="file:///C:/Users/alok/Desktop/alok/IMAGE/image%206.png" alt="indian Railways">
+    </div>
+    <div class="navigation-container">
+    <ul>
+    <li>Ask Disha</li>
+    <li>Contact us</li>
+    <li>Alerts</li>
+    </ul>
+    <ul>
+    <li>
+    <button class="selected">Login</button>
+    </li>
+    <li>
+    <button>Register</button>
+    </li>
+    <li>
+    <button>Agent Login</button>
+    </li>
+    </ul>
+    </div>
+    </nav>
+    <!-- main section -->
+    <main>
+    <div>
+    <h2 class="main-title">Indian Railways</h2>
+    <p class="sub-main-title">
+    <span class="green-text">
+    Safety
+    </span>
+    <span class="orange-text">
+    Security
+    </span>
+    <span class="blue-text">
+    Punctuality
+    </span>
+    </p>
+    </div>
+    <div class="choose-container">
+    <button class="selected"><img src="file:///C:/Users/alok/Desktop/alok/IMAGE/confirmation_number_FILL0_wght400_GRAD0_opsz48%201.png" alt=""> BOOK
+    Ticket</button>
+    <button><img src="file:///C:/Users/alok/Desktop/alok/IMAGE/done_FILL0_wght400_GRAD0_opsz48%20(1)%201.png" alt=""> PNR Status</button>
+
+    <button><img src="file:///C:/Users/alok/Desktop/alok/IMAGE/insert_chart_FILL0_wght400_GRAD0_opsz48%201.png" alt=""> Charts / Vacancy</
+    button>
+    </div>
+    <div class="journey-details-container">
+    <div class="journey-details-section-container">
+    <div class="card-element">
+    <div class="card-element-image-container">
+    <img src="file:///C:/Users/alok/Desktop/alok/IMAGE/ic-search-from-desktop.png" alt="">
+    </div>
+    <div class="select-option">
+    <div class="dropdown">
+    <span>From</span>
+    <img src="file:///C:/Users/alok/Downloads/expand_more_FILL0_wght400_GRAD0_opsz48%201.png" alt="">
+    </div>
+    <div class="choose-location">
+    <h2>Bangalore</h2>
+    <span>KSR - Bangalore</span>
+    </div>
+    </div>
+    </div>
+    <div class="center-from-to-arrow">
+    <img src="file:///C:/Users/alok/Desktop/alok/IMAGE/sync_alt_FILL0_wght300_GRAD0_opsz48%201.png" alt="">
+    </div>
+    <div class="card-element">
+    <div class="card-element-image-container">
+    <img src="file:///C:/Users/alok/Downloads/ic-search-to-desktop.png" alt="">
+    </div>
+    <div class="select-option">
+    <div class="dropdown">
+    <span>To</span>
+    <img src="file:///C:/Users/alok/Downloads/expand_more_FILL0_wght400_GRAD0_opsz48%201.png" alt="">
+    </div>
+    <div class="choose-location">
+    <h2>Kasaragod</h2>
+    <span>KSD - Kasaragod</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="journey-details-section-container">
+    <div class="card-element">
+    <div class="card-element-image-container">
+    <img src="file:///C:/Users/alok/Desktop/alok/IMAGE/ic-search-calender-desktop.png" alt="">
+    </div>
+    <div class="select-option">
+    <div class="dropdown">
+    <span>Date</span>
+    <img src="file:///C:/Users/alok/Downloads/expand_more_FILL0_wght400_GRAD0_opsz48%201.png" alt="">
+    </div>
+    <div class="choose-location">
+    <h2>01 Aug 23</h2>
+    <span>Tuesday</span>
+    </div>
+    </div>
+    </div>
+    <div class="card-element ">
+    <div class="card-element-image-container">
+    <img src="file:///C:/Users/alok/Desktop/alok/IMAGE/group_work_FILL0_wght200_GRAD0_opsz48%201.png" alt="">
+    </div>
+    <div class="select-option">
+    <div class="dropdown">
+    <span>Class</span>
+    <img src="file:///C:/Users/alok/Downloads/expand_more_FILL0_wght400_GRAD0_opsz48%201.png" alt="">
+    </div>
+    <div class="choose-location">
+    <h2>3A</h2>
+    <span>AC 3 tier</span>
+    </div>
+    </div>
+    </div>
+    <div class="card-element">
+    <div class="card-element-image-container">
+    <img src="file:///C:/Users/alok/Desktop/alok/IMAGE/widgets_FILL0_wght200_GRAD0_opsz48%201.png" alt="">
+    </div>
+    <div class="select-option">
+    <div class="dropdown">
+    <span>Seat Type</span>
+    <img src="file:///C:/Users/alok/Downloads/expand_more_FILL0_wght400_GRAD0_opsz48%201.png" alt="">
+    </div>
+    <div class="choose-location">
+    <h2>TATKAL</h2>
+    <span>AC 3 Tier</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <button class="search-button">Search Train <img src="file:///C:/Users/alok/Downloads/arrow_forward_FILL0_wght400_GRAD0_opsz48%201.png" alt=""></button>
+    
+    </main>
+
+    </section>
+    <!-- right section -->
+    <section class="right">
+    <img src="file:///C:/Users/alok/Desktop/alok/IMAGE/image.png" alt="">
+    </section>
+    </div>
+    </body>
+    </html>
